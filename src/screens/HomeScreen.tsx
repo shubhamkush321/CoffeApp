@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, {useRef, useState} from 'react';
 import {
   ScrollView,
@@ -379,3 +380,19 @@ const styles = StyleSheet.create({
 });
 
 export default HomeScreen;
+=======
+import React from 'react'
+import { StyleSheet, Text, View } from 'react-native'
+
+const HomeScreen = () => {
+  return (
+    <View>
+      <Text>HomeScreen</Text>
+    </View>
+  )
+}
+
+export default HomeScreen
+
+const styles = StyleSheet.create({})
+>>>>>>> origin/main

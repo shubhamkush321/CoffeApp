@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, {useState} from 'react';
 import {
   StyleSheet,
@@ -269,3 +270,19 @@ const styles = StyleSheet.create({
 });
 
 export default PaymentScreen;
+=======
+import React from 'react'
+import { StyleSheet, Text, View } from 'react-native'
+
+const PaymentScreen = () => {
+  return (
+    <View>
+      <Text>PaymentScreen</Text>
+    </View>
+  )
+}
+
+export default PaymentScreen
+
+const styles = StyleSheet.create({})
+>>>>>>> origin/main

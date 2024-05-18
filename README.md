@@ -38,6 +38,7 @@ yarn android
 # using npm
 npm run ios
 
+<<<<<<< HEAD
 # OR using Yarn
 yarn ios
 ```
@@ -77,3 +78,17 @@ To learn more about React Native, take a look at the following resources:
 - [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
 - [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
 - [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+=======
+# Require this aree state mangement depedensi
+#npm zustang it is state mangement library
+# immer library it help the depply nested object data
+# React native-Async-storage this help sorte the in local divece
+
+#React Navigation
+
+# Basic elemental depends
+# React native linear-gradient
+# React Native community-blur
+#  React native vector icon
+# React native lottie for animation
+>>>>>>> origin/main

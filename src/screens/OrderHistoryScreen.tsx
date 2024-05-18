@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import {
   ScrollView,
   StatusBar,
@@ -133,3 +134,19 @@ const styles = StyleSheet.create({
 });
 
 export default OrderHistoryScreen;
+=======
+import React from 'react'
+import { StyleSheet, Text, View } from 'react-native'
+
+const OrderHistoryScreen = () => {
+  return (
+    <View>
+      <Text>OrderHistoryScreen</Text>
+    </View>
+  )
+}
+
+export default OrderHistoryScreen
+
+const styles = StyleSheet.create({})
+>>>>>>> origin/main

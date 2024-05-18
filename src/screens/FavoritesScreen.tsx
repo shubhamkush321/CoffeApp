@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from 'react';
 import {
   StyleSheet,
@@ -97,3 +98,19 @@ const styles = StyleSheet.create({
 });
 
 export default FavoritesScreen;
+=======
+import React from 'react'
+import { StyleSheet, Text, View } from 'react-native'
+
+const FavoritesScreen = () => {
+  return (
+    <View>
+      <Text>FavoritesScreen</Text>
+    </View>
+  )
+}
+
+export default FavoritesScreen
+
+const styles = StyleSheet.create({})
+>>>>>>> origin/main
