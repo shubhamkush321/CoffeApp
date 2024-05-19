@@ -69,6 +69,7 @@ export const useStore = create(
             state.CartPrice = totalprice.toFixed(2).toString();
           }),
         ),
+        // Add a Favorite list coffee or Bean
       addToFavoriteList: (type: string, id: string) =>
         set(
           produce(state => {
@@ -135,6 +136,7 @@ export const useStore = create(
             state.FavoritesList.splice(spliceIndex, 1);
           }),
         ),
+        // Increments item quality list
       incrementCartItemQuantity: (id: string, size: string) =>
         set(
           produce(state => {

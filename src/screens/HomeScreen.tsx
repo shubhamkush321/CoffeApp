@@ -65,15 +65,17 @@ const HomeScreen = ({ navigation }: any) => {
     getCoffeeList(categoryIndex.category, CoffeeList),
   );
 
-  const ListRef: any = useRef<FlatList>();
+  const ListRef: any = useRef<FlatList>(); // remove blank spaces of sliding
   const tabBarHeight = useBottomTabBarHeight();
 
+  // search coffee function
   const searchCoffee = (search: string) => {
     if (search != '') {
       ListRef?.current?.scrollToOffset({
         animated: true,
         offset: 0,
       });
+      // if some type in lowercase than it will also search 
       setCategoryIndex({ index: 0, category: categories[0] });
       setSortedCoffee([
         ...CoffeeList.filter((item: any) =>
@@ -227,7 +229,7 @@ const HomeScreen = ({ navigation }: any) => {
           horizontal
           ListEmptyComponent={
             <View style={styles.EmptyListContainer}>
-              <Text style={styles.CategoryText}>No Coffee Available</Text>
+              <Text style={styles.CategoryText}>No Coffee Available Type Correct Name</Text>
             </View>
           }
           showsHorizontalScrollIndicator={false}
@@ -369,6 +371,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     paddingVertical: SPACING.space_36 * 3.6,
   },
+  // coffee Beans card
   CoffeeBeansTitle: {
     fontSize: FONTSIZE.size_18,
     marginLeft: SPACING.space_30,
